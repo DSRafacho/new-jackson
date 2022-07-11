@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* COMPONENTS */
+.input {
+  @apply rounded text-black outline-none px-2 w-full min-w-full max-w-full
+}
+
+.label {
+  @apply block cursor-pointer font-extrabold text-j-white
+}
+
+.center {
+  @apply flex justify-center
+}
+
+.title-decoration {
+  @apply pl-8 border-l-4 border-l-j-yellow
+}
+
+.content-decoration {
+  @apply pl-8 border-l-4 border-t-j-gray
+}
+
+
+/* FONTS */
+.font-parisienne {
+  font-family: 'Parisienne'
+}
+.font-bonheur {
+  font-family: 'Bonheur Royale'
+}
+
+.font-dancing-script {
+  font-family: 'Dancing Script'
+}
+
+.font-montserrat {
+  font-family: 'Montserrat'!important;
+}
+
+
+/* HTMl */
+
+body {
+  font-family: 'Courgette';
+}
